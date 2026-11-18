@@ -1,0 +1,27 @@
+name: Suggestion (Sugestão)
+description: An idea to make Nimbus Menu better. / Uma ideia pra melhorar o Nimbus Menu.
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the idea! You can write in English or Portuguese.
+        Valeu pela ideia! Pode escrever em inglês ou em português.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea / Sua ideia
+      description: What would you like Nimbus Menu to do? / O que você gostaria que o Nimbus Menu fizesse?
+      placeholder: "A tab in Start with recently opened files."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why? / Por quê?
+      description: When would you use it? What does it make easier? / Quando você usaria? O que fica mais fácil?
+  - type: textarea
+    id: example
+    attributes:
+      label: Example (optional) / Exemplo (opcional)
+      description: A screenshot, a drawing, or another app that does it. / Um print, um desenho ou outro app que faz isso.

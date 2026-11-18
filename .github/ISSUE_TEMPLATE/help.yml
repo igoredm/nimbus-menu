@@ -1,0 +1,67 @@
+name: Help / bug (Ajuda / bug)
+description: Something isn't working as it should. / Algo não está funcionando como deveria.
+labels: ["help"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for writing! You can write in English or Portuguese.
+        Obrigado por escrever! Pode escrever em inglês ou em português.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / O que aconteceu?
+      description: What you did, what you expected, and what happened instead. / O que você fez, o que esperava e o que aconteceu.
+      placeholder: "I pressed the Windows key and typed, but the text didn't show up in the search."
+    validations:
+      required: true
+  - type: dropdown
+    id: when
+    attributes:
+      label: How often? / Com que frequência?
+      options:
+        - Always / Sempre
+        - Sometimes / Às vezes
+        - Only once / Só uma vez
+    validations:
+      required: true
+  - type: input
+    id: mod-version
+    attributes:
+      label: Nimbus Menu version / Versão do Nimbus Menu
+      description: On the mod's page in Windhawk. / Na página do mod no Windhawk.
+      placeholder: "1.1.0"
+    validations:
+      required: true
+  - type: input
+    id: windhawk-version
+    attributes:
+      label: Windhawk version / Versão do Windhawk
+      description: Windhawk → About. / Windhawk → About (Sobre).
+      placeholder: "1.7.3"
+    validations:
+      required: true
+  - type: input
+    id: windows-version
+    attributes:
+      label: Windows version / Versão do Windows
+      description: Press Windows + R, type winver, press Enter. / Aperte Windows + R, digite winver e Enter.
+      placeholder: "Windows 11 24H2 (26100.2605)"
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Your setup / Seu PC
+      description: Number of monitors, other Windhawk mods that change the taskbar or Start, other apps like that (StartAllBack, ExplorerPatcher, PowerToys...). / Quantos monitores, outros mods do Windhawk que mexem na barra ou no Iniciar, outros apps assim.
+  - type: textarea
+    id: log
+    attributes:
+      label: Log (optional) / Log (opcional)
+      description: See "Getting a log" in the README. / Veja "Como pegar o log" no README.
+      render: text
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or video (optional) / Prints ou vídeo (opcional)
+      description: Drag images or videos here. / Arraste imagens ou vídeos aqui.

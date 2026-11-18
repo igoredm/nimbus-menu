@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Windhawk (the app itself) / Windhawk (o app em si)
+    url: https://github.com/ramensoftware/windhawk/issues
+    about: Problems with Windhawk itself, not with Nimbus Menu. / Problemas do próprio Windhawk, não do Nimbus Menu.

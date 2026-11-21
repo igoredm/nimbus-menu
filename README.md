@@ -31,12 +31,15 @@ Adds the status area, a control center, a player and notifications of its own.
 - **Devices:** battery of wireless headphones, mice and controllers, with a warning at 20% and 10%.
 - **Notes, reminders and the shelf** (drop files on the dock to keep them for a while).
 - **Smarter search:** ignores accents, finds by initials ("vsc" finds VS Code), forgives typos, knows nicknames ("cmd") and puts what you use most first.
+- **Complete sound panel (optional):** the apps playing on the left and every output on the right. Drag an app onto an output to play it there too, from one output to another to move it, × to take it off one; pick the default output and the one for calls.
 - **Its own settings window** with a live preview, and a **guided setup**.
 - Keyboard in Start, power options with a confirmation, high contrast and reduced animations followed.
 
 ![Player](https://raw.githubusercontent.com/igoredm/windhawk-mods/1635432cdfe302469b8963916e776999508ebee7/2.0-player.png)
 
 ![Search with a typo](https://raw.githubusercontent.com/igoredm/windhawk-mods/1635432cdfe302469b8963916e776999508ebee7/2.0-busca.png)
+
+![Complete sound panel](https://raw.githubusercontent.com/igoredm/windhawk-mods/9fce5f4a3e282a33e0cc07cf228b5584a243caa1/2.0-som.png)
 
 ![Guided setup](https://raw.githubusercontent.com/igoredm/windhawk-mods/1635432cdfe302469b8963916e776999508ebee7/2.0-guiado.png)
 
@@ -81,6 +84,7 @@ With "Hide the Windows taskbar" on (the default), the whole Windows taskbar is h
 | The taskbar's own "Automatically hide the taskbar" option | While "Hide the Windows taskbar" is on, so the hidden taskbar doesn't reserve screen space | Your original choice is put back when the mod stops, on sign-out or shutdown, and at the next start after a crash. |
 | Each app's "Show notification banners" switch (2.0) | Only if you turn on "Hide Windows' own banners" and confirm (off by default) | Every app's original value is saved first, and put back when the option goes off or the mod stops. |
 | Night light, power plan, brightness, Bluetooth, Wi‑Fi, volume, keyboard language (2.0) | Only when you click them, like in Windows' quick settings | They're your choices, so they stay as you set them. |
+| The default sound output, the one for calls, and each app's output (2.0, complete sound panel only, off by default) | Only when you drag an app or click Default or Calls. It uses the same parts of Windows its Sound settings use, which Microsoft doesn't document | Windows keeps them, as in Settings › Sound › Volume mixer. An app on a second output is a copy Nimbus plays while it runs. Going back to the simple panel puts it all back. |
 
 **BatteryHub** (2.0, optional, off by default): with "Devices: use BatteryHub" on, Nimbus runs [BatteryHub](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) (installed separately) hidden every 5 minutes, only to read the batteries of USB receivers; it closes by itself.
 
@@ -117,6 +121,7 @@ Traz a área de status, uma central de controle, um player e notificações pró
 - **Dispositivos:** bateria de fones, mouses e controles sem fio, com aviso em 20% e 10%.
 - **Notas, lembretes e a prateleira** (solte arquivos na dock pra guardar por um tempo).
 - **Busca mais esperta:** ignora acentos, acha por iniciais ("vsc" acha o VS Code), perdoa erro de digitação, conhece apelidos ("cmd") e põe o que você mais usa primeiro.
+- **Painel de som completo (opcional):** os apps tocando à esquerda e todas as saídas à direita. Arraste um app pra uma saída pra tocar nela também, de uma saída pra outra pra trocar, × pra tirar de uma; escolha a saída padrão e a das chamadas.
 - **Janela de ajustes própria** com prévia ao vivo, e **modo guiado**.
 - Teclado no Iniciar, opções de energia com confirmação, alto contraste e "reduzir animações" do Windows respeitados.
 
@@ -161,6 +166,7 @@ Com "Esconder a barra do Windows" ligado (o padrão), a barra do Windows some in
 | A opção "Ocultar automaticamente a barra de tarefas" do próprio Windows | Enquanto "Esconder a barra do Windows" estiver ligado, pra barra escondida não reservar espaço | A sua escolha original volta quando o mod para, ao sair da conta ou desligar, e no próximo início depois de um travamento. |
 | O botão "Mostrar faixas de notificação" de cada app (2.0) | Só se você ligar "Esconder os avisos do Windows" e confirmar (desligado por padrão) | O valor original de cada app é salvo antes, e volta quando a opção é desligada ou o mod para. |
 | Luz noturna, plano de energia, brilho, Bluetooth, Wi‑Fi, volume, idioma do teclado (2.0) | Só quando você clica, como nas configurações rápidas do Windows | São escolhas suas e ficam como você deixou. |
+| A saída de som padrão, a das chamadas e a de cada app (2.0, só no painel de som completo, desligado por padrão) | Só quando você arrasta um app ou clica em Padrão ou Chamadas. Usa as mesmas partes do Windows que as Configurações de som usam, que a Microsoft não documenta | O Windows guarda, como em Configurações › Som › Mixer de volume. Um app numa segunda saída é uma cópia que o Nimbus toca enquanto roda. Voltar pro painel simples desfaz tudo. |
 
 **BatteryHub** (2.0, opcional, desligado por padrão): com "Dispositivos: usar o BatteryHub" ligado, o Nimbus roda o [BatteryHub](https://github.com/krisgfx9/Wireless-Device-Battery-Monitor) (instalado à parte) escondido a cada 5 minutos, só pra ler a bateria de receptores USB; ele fecha sozinho.
 
